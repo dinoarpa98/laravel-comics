@@ -1,0 +1,74 @@
+.container-comics-card-detail {
+  background-color: #1c1c1c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin: 0px 0px;
+  padding: 30px 90px;
+    
+  .container-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 17px;
+
+    .card-comics {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+      img {
+        padding: 20px;
+        object-fit: cover;
+        object-position: 0% 0%;
+      }
+    }
+
+    .card-info{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      h3 {
+        margin-bottom: 10px;
+      }
+
+      h5 {
+        margin-bottom: 10px;
+      }
+
+    }
+  }
+
+  .container-info {
+    text-align: center;
+    h4 {
+      margin-top: 10px;
+    }
+    .artist{
+    list-style: none;
+    }
+    .writers{
+    list-style: none;
+    }
+  }
+}
+
+.text-container-detail {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  a {
+    text-decoration-line: none;
+  }
+  .txt {
+    color: white;
+    background-color: #0282f9;
+    padding: 10px 20px;
+  }
+}
