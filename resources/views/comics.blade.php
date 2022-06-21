@@ -7,16 +7,16 @@
         <div class="container-card">
 
             @foreach ($series as $key => $serie)
-                <div class="card-comics">
-
+               
+            <div class="card-comics">
                     <a href="/comics/detail/{{ $key + 1 }}">
                         <img src="{{ $serie['thumb'] }}" alt="{{ $serie['title'] }}">
                         <h2>
                             {{ $serie['series'] }}
                         </h2>
                     </a>
-
                 </div>
+                
             @endforeach
 
         </div>
